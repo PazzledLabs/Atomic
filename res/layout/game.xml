@@ -1,0 +1,113 @@
+<!--
+  Copyright (c) 2013 venkat@pazzled.com.
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the GNU Public License v3.0
+  which accompanies this distribution, and is available at
+  http://www.gnu.org/licenses/gpl.html
+  
+  Contributors:
+      venkat@pazzled.com - Venkat
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keepScreenOn="true"
+    android:id="@+id/main_game"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="@layout/repeat"
+    android:orientation="vertical"
+    android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+
+    <com.google.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+        android:id="@+id/adView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="a14f64c2921390b"
+        />
+
+    <TextView
+        android:id="@+id/molecule_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:clickable="true"
+        android:enabled="true"
+        android:gravity="right"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/show_structure"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/molecule_name"
+        android:contentDescription="@string/show_structure"
+        android:scaleType="centerCrop"
+        android:src="@drawable/atomic" />
+
+    <HorizontalScrollView
+        android:id="@+id/hs_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollX="100dp" >
+
+        <LinearLayout
+            android:id="@+id/game_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <GridView
+                android:id="@+id/level"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="top"
+                android:listSelector="#00000000"
+                android:numColumns="@integer/numColumns"
+                android:stretchMode="columnWidth" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="20dp"
+        android:id="@+id/m_settings"
+        android:background="@drawable/settings"
+        android:contentDescription="@string/settings" />
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/m_settings"
+        android:layout_marginRight="20dp"
+        android:id="@+id/undo"
+        android:background="@drawable/undo"
+        android:contentDescription="@string/undo" />
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/undo"
+        android:layout_marginRight="20dp"
+        android:id="@+id/redo"
+        android:background="@drawable/redo"
+        android:contentDescription="@string/redo" />
+
+    <TextView
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/redo"
+        android:id="@+id/score_count"
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+</RelativeLayout>

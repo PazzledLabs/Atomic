@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2012 venkat.
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the GNU Public License v3.0
+  which accompanies this distribution, and is available at
+  http://www.gnu.org/licenses/gpl.html
+  
+  Contributors:
+      venkat - initial API and implementation
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pazzled.game.atomic"
+    android:versionCode="2"
+    android:versionName="underPantsAlpha" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/atomic"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        <activity
+            android:screenOrientation="portrait"
+            android:name="pazzled.game.atomic.HomeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name="pazzled.game.atomic.MenuActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name="pazzled.game.atomic.AboutActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name="pazzled.game.atomic.TutorialActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name="pazzled.game.play.LevelActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name="pazzled.game.play.GameActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name="com.google.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+    </application>
+
+</manifest>

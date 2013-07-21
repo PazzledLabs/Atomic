@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2013 venkat@pazzled.com.
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the GNU Public License v3.0
+  which accompanies this distribution, and is available at
+  http://www.gnu.org/licenses/gpl.html
+  
+  Contributors:
+      venkat@pazzled.com - Venkat
+-->
+<resources>
+    <item name="level_23_molecule_name" type="string">Ammonia</item>
+    <item name="level_23_molecule_max_size" type="integer">3</item>
+    <string-array name="level_23_molecule">
+        <item>__h</item>
+        <item>hn_</item>
+        <item>__h</item>
+    </string-array>
+    <string-array name="level_23_molecule_regex">
+        <item>..h|h..</item>
+        <item>hn.|.nh</item>
+        <item>..h|h..</item>
+    </string-array>
+    <string-array name="level_23">
+        <item>_______________</item>
+        <item>_lllllllllllll_</item>
+        <item>_ll__hl__l__ll_</item>
+        <item>_l___l__l____l_</item>
+        <item>_l________l__l_</item>
+        <item>_lhl_l___l__ll_</item>
+        <item>_ll___l____l_l_</item>
+        <item>_l____n______l_</item>
+        <item>_l_l____l__hll_</item>
+        <item>_ll__l___l_l_l_</item>
+        <item>_l__l________l_</item>
+        <item>_l____l__l___l_</item>
+        <item>_ll__l__l___ll_</item>
+        <item>_lllllllllllll_</item>
+        <item>_______________</item>
+    </string-array>
+</resources>

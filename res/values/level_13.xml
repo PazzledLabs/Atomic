@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2013 venkat@pazzled.com.
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the GNU Public License v3.0
+  which accompanies this distribution, and is available at
+  http://www.gnu.org/licenses/gpl.html
+  
+  Contributors:
+      venkat@pazzled.com - Venkat
+-->
+<resources>
+    <item name="level_13_molecule_name" type="string">cis-Butene</item>
+    <item name="level_13_molecule_max_size" type="integer">6</item>
+    <string-array name="level_13_molecule">
+        <item>_h__h_</item>
+        <item>h_cc_h</item>
+        <item>_c__c_</item>
+        <item>h_hh_h</item>
+    </string-array>
+    <string-array name="level_13_molecule_regex">
+        <item>.h..h.|.h..h.</item>
+        <item>h.cc.h|h.cc.h</item>
+        <item>.c..c.|.c..c.</item>
+        <item>h.hh.h|h.hh.h</item>
+    </string-array>
+    <string-array name="level_13">
+        <item>_______________</item>
+        <item>_lllllllllllll_</item>
+        <item>_l_l__ll___l_l_</item>
+        <item>_ll__l_____l_l_</item>
+        <item>_ll____l__l__l_</item>
+        <item>_l_h__hl_h__hl_</item>
+        <item>_lll____l_l__l_</item>
+        <item>_l__l______lll_</item>
+        <item>_l_c__c_lc__cl_</item>
+        <item>_l_ll_ll_____l_</item>
+        <item>_ll______l_l_l_</item>
+        <item>_l_hllh_lh_lhl_</item>
+        <item>_l_l____l_l__l_</item>
+        <item>_lllllllllllll_</item>
+        <item>_______________</item>
+    </string-array>
+</resources>

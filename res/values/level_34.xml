@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2013 venkat@pazzled.com.
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the GNU Public License v3.0
+  which accompanies this distribution, and is available at
+  http://www.gnu.org/licenses/gpl.html
+  
+  Contributors:
+      venkat@pazzled.com - Venkat
+-->
+<resources>
+    <item name="level_34_molecule_name" type="string">L-Alanine</item>
+    <item name="level_34_molecule_max_size" type="integer">6</item>
+    <string-array name="level_34_molecule">
+        <item>h_ho__</item>
+        <item>hhhhoh</item>
+        <item>h_n___</item>
+        <item>_h_h__</item>
+    </string-array>
+    <string-array name="level_34_molecule_regex">
+        <item>h.ho..|..oh.h</item>
+        <item>hhhhoh|hohhhh</item>
+        <item>h.n...|...n.h</item>
+        <item>.h.h..|..h.h.</item>
+    </string-array>
+    <string-array name="level_34">
+        <item>_______________</item>
+        <item>_lllllllllllll_</item>
+        <item>_l_o_c___h___l_</item>
+        <item>_l_llll__ll__l_</item>
+        <item>_l__h______h_l_</item>
+        <item>_ll_____n__l_l_</item>
+        <item>_l__l_l_lh_l_l_</item>
+        <item>_l_h__l_l__l_l_</item>
+        <item>_lhl______c__l_</item>
+        <item>_l_l____o____l_</item>
+        <item>_l____l__lh_ll_</item>
+        <item>_l__l_l__l___l_</item>
+        <item>_l____lc_l___l_</item>
+        <item>_lllllllllllll_</item>
+        <item>_______________</item>
+    </string-array>
+</resources>

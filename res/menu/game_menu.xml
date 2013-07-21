@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2013 venkat@pazzled.com.
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the GNU Public License v3.0
+  which accompanies this distribution, and is available at
+  http://www.gnu.org/licenses/gpl.html
+  
+  Contributors:
+      venkat@pazzled.com - Venkat
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/next_level"
+        android:icon="@android:drawable/ic_media_next"
+        android:title="@string/next_level"/>
+    <item
+        android:id="@+id/previous_level"
+        android:icon="@android:drawable/ic_media_previous"
+        android:title="@string/previous_level"/>
+    <item
+        android:id="@+id/restart_level"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:title="@string/restart_level"/>
+    <item
+        android:id="@+id/mute"
+        android:icon="@android:drawable/ic_btn_speak_now"
+        android:title="@string/mute"/>
+    <item
+        android:id="@+id/highscore"
+        android:icon="@android:drawable/dialog_frame"
+        android:title="@string/highscore"/>
+    <item
+        android:id="@+id/hide_ad"
+        android:icon="@android:drawable/ic_delete"
+        android:title="@string/hide_ad"/>
+
+</menu>

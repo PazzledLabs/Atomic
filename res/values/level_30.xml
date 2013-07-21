@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2013 venkat@pazzled.com.
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the GNU Public License v3.0
+  which accompanies this distribution, and is available at
+  http://www.gnu.org/licenses/gpl.html
+  
+  Contributors:
+      venkat@pazzled.com - Venkat
+-->
+<resources>
+    <item name="level_30_molecule_name" type="string">Nitro-Glycerin</item>
+    <item name="level_30_molecule_max_size" type="integer">7</item>
+    <string-array name="level_30_molecule">
+        <item>__ojo__</item>
+        <item>___n___</item>
+        <item>__hoh__</item>
+        <item>_hoooh_</item>
+        <item>__oho__</item>
+        <item>on___no</item>
+        <item>_o___o_</item>
+    </string-array>
+    <string-array name="level_30_molecule_regex">
+        <item>..ojo..|..ojo..</item>
+        <item>...n...|...n...</item>
+        <item>..hoh..|..hoh..</item>
+        <item>.hoooh.|.hoooh.</item>
+        <item>..oho..|..oho..</item>
+        <item>on...no|on...no</item>
+        <item>.o...o.|.o...o.</item>
+    </string-array>
+    <string-array name="level_30">
+        <item>_______________</item>
+        <item>___lllllllll___</item>
+        <item>___l_______l___</item>
+        <item>___l_oln__llll_</item>
+        <item>___lclnl_o___l_</item>
+        <item>___lol___h__ol_</item>
+        <item>_lll_lll___lll_</item>
+        <item>_l_____n__o_ol_</item>
+        <item>_l_hlh_c_ll__l_</item>
+        <item>_l_llljl__llll_</item>
+        <item>_loll__lh__ool_</item>
+        <item>_lc____ll__lll_</item>
+        <item>_lllllllh__l___</item>
+        <item>_______lllll___</item>
+        <item>_______________</item>
+    </string-array>
+</resources>

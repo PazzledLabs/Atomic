@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2013 venkat@pazzled.com.
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the GNU Public License v3.0
+  which accompanies this distribution, and is available at
+  http://www.gnu.org/licenses/gpl.html
+  
+  Contributors:
+      venkat@pazzled.com - Venkat
+-->
+<resources>
+    <item name="level_17_molecule_name" type="string">Glycerin</item>
+    <item name="level_17_molecule_max_size" type="integer">5</item>
+    <string-array name="level_17_molecule">
+        <item>_h__</item>
+        <item>hcoh</item>
+        <item>hcoh</item>
+        <item>hcoh</item>
+        <item>_h__</item>
+    </string-array>
+    <string-array name="level_17_molecule_regex">
+        <item>.h..|..h.</item>
+        <item>hcoh|hoch</item>
+        <item>hcoh|hoch</item>
+        <item>hcoh|hoch</item>
+        <item>.h..|..h.</item>
+    </string-array>
+    <string-array name="level_17">
+        <item>_______________</item>
+        <item>__lllllllllll__</item>
+        <item>__l_l_hlc_l_l__</item>
+        <item>__l_ol_l_l__l__</item>
+        <item>__ll__c____ll__</item>
+        <item>__l_l_____l_l__</item>
+        <item>__l_h____h__l__</item>
+        <item>__llllo__llll__</item>
+        <item>__l____ho_h_l__</item>
+        <item>__l_l____cl_l__</item>
+        <item>__ll_____h_ll__</item>
+        <item>__l__l_l_l_hl__</item>
+        <item>__l_l_hl__l_l__</item>
+        <item>__lllllllllll__</item>
+        <item>_______________</item>
+    </string-array>
+</resources>

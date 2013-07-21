@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2013 venkat@pazzled.com.
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the GNU Public License v3.0
+  which accompanies this distribution, and is available at
+  http://www.gnu.org/licenses/gpl.html
+  
+  Contributors:
+      venkat@pazzled.com - Venkat
+-->
+<resources>
+    <item name="level_37_molecule_name" type="string">Anthracene</item>
+    <item name="level_37_molecule_max_size" type="integer">7</item>
+    <string-array name="level_37_molecule">
+        <item>h__h__</item>
+        <item>_cc_h_</item>
+        <item>hccc_h</item>
+        <item>_cccc_</item>
+        <item>h_ccch</item>
+        <item>_h_cc_</item>
+        <item>__h__h</item>
+    </string-array>
+    <string-array name="level_37_molecule_regex">
+        <item>h..h..|..h..h</item>
+        <item>.cc.h.|.h.cc.</item>
+        <item>hccc.h|h.ccch</item>
+        <item>.cccc.|.cccc.</item>
+        <item>h.ccch|hccc.h</item>
+        <item>.h.cc.|.cc.h.</item>
+        <item>..h..h|h..h..</item>
+    </string-array>
+    <string-array name="level_37">
+        <item>lllllllllllllll</item>
+        <item>l__cll_____l__l</item>
+        <item>l__hll___clll_l</item>
+        <item>l__c______h___l</item>
+        <item>l_______h____ll</item>
+        <item>llll__c_lllc_ll</item>
+        <item>l____cc_h___h_l</item>
+        <item>l__________llcl</item>
+        <item>ll____l____cl_l</item>
+        <item>lc_lh_lhc_____l</item>
+        <item>l_lll_llll____l</item>
+        <item>l__lc_h__h____l</item>
+        <item>l_____l____l__l</item>
+        <item>l_c__l_____lchl</item>
+        <item>lllllllllllllll</item>
+    </string-array>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2013 venkat@pazzled.com.
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the GNU Public License v3.0
+  which accompanies this distribution, and is available at
+  http://www.gnu.org/licenses/gpl.html
+  
+  Contributors:
+      venkat@pazzled.com - Venkat
+-->
+<resources>
+    <item name="level_24_molecule_name" type="string">3-Methyl-Pentane</item>
+    <item name="level_24_molecule_max_size" type="integer">7</item>
+    <string-array name="level_24_molecule">
+        <item>__hhh__</item>
+        <item>_hhchh_</item>
+        <item>hccccch</item>
+        <item>_hhhhh_</item>
+    </string-array>
+    <string-array name="level_24_molecule_regex">
+        <item>..hhh..|..hhh..</item>
+        <item>.hhchh.|.hhchh.</item>
+        <item>hccccch|hccccch</item>
+        <item>.hhhhh.|.hhhhh.</item>
+    </string-array>
+    <string-array name="level_24">
+        <item>_______________</item>
+        <item>lllllllllllllll</item>
+        <item>l_h_h__l__c__hl</item>
+        <item>lh_l___l___l__l</item>
+        <item>l_lll_hh__lll_l</item>
+        <item>l_cl____h__l__l</item>
+        <item>l_______c_____l</item>
+        <item>lll_h__h____lll</item>
+        <item>l____c_______hl</item>
+        <item>lh_l_______l_cl</item>
+        <item>l_lll____hlll_l</item>
+        <item>l__lh__lh__l__l</item>
+        <item>l_____cl______l</item>
+        <item>lllllllllllllll</item>
+        <item>_______________</item>
+    </string-array>
+</resources>

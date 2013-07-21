@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2013 venkat@pazzled.com.
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the GNU Public License v3.0
+  which accompanies this distribution, and is available at
+  http://www.gnu.org/licenses/gpl.html
+  
+  Contributors:
+      venkat@pazzled.com - Venkat
+-->
+<resources>
+    <item name="level_47_molecule_name" type="string">Malonic Acid</item>
+    <item name="level_47_molecule_max_size" type="integer">7</item>
+    <string-array name="level_47_molecule">
+        <item>ho_ho__</item>
+        <item>__ccc__</item>
+        <item>__oh_oh</item>
+    </string-array>
+    <string-array name="level_47_molecule_regex">
+        <item>ho.ho..|..oh.oh</item>
+        <item>..ccc..|..ccc..</item>
+        <item>..oh.oh|ho.ho..</item>
+    </string-array>
+    <string-array name="level_47">
+        <item>_______________</item>
+        <item>_______________</item>
+        <item>__lllllllll____</item>
+        <item>__l_lo____l____</item>
+        <item>__l_l___c_l____</item>
+        <item>__l__o_llhl____</item>
+        <item>__l__o__lhl____</item>
+        <item>__l__l_hh_lll__</item>
+        <item>__l__ll_____l__</item>
+        <item>__l_co_c____l__</item>
+        <item>__l_________l__</item>
+        <item>__lll__l____l__</item>
+        <item>____lllllllll__</item>
+        <item>_______________</item>
+        <item>_______________</item>
+    </string-array>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2013 venkat@pazzled.com.
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the GNU Public License v3.0
+  which accompanies this distribution, and is available at
+  http://www.gnu.org/licenses/gpl.html
+  
+  Contributors:
+      venkat@pazzled.com - Venkat
+-->
+<resources>
+    <item name="level_26_molecule_name" type="string">Propyne</item>
+    <item name="level_26_molecule_max_size" type="integer">5</item>
+    <string-array name="level_26_molecule">
+        <item>___h_</item>
+        <item>hccch</item>
+        <item>___h_</item>
+    </string-array>
+    <string-array name="level_26_molecule_regex">
+        <item>...h.|.h...</item>
+        <item>hccch|hccch</item>
+        <item>...h.|.h...</item>
+    </string-array>
+    <string-array name="level_26">
+        <item>_______________</item>
+        <item>_lllllllllllll_</item>
+        <item>_l___lllll___l_</item>
+        <item>_l_l_________l_</item>
+        <item>_l_l_cl___l__l_</item>
+        <item>_llll_lllhl__l_</item>
+        <item>_l______l_ll_l_</item>
+        <item>_lhl_______l_l_</item>
+        <item>_llll_llll___l_</item>
+        <item>_l_l____l____l_</item>
+        <item>_l___l_____l_l_</item>
+        <item>_l__lll_h_llcl_</item>
+        <item>_l_hl____llc_l_</item>
+        <item>_lllllllllllll_</item>
+        <item>_______________</item>
+    </string-array>
+</resources>

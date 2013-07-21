@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2013 venkat@pazzled.com.
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the GNU Public License v3.0
+  which accompanies this distribution, and is available at
+  http://www.gnu.org/licenses/gpl.html
+  
+  Contributors:
+      venkat@pazzled.com - Venkat
+-->
+<resources>
+    <item name="level_9_molecule_name" type="string">Acetone</item>
+    <item name="level_9_molecule_max_size" type="integer">5</item>
+    <string-array name="level_9_molecule">
+        <item>_h_h_</item>
+        <item>hccch</item>
+        <item>_hoh_</item>
+    </string-array>
+    <string-array name="level_9_molecule_regex">
+        <item>.h.h.|.h.h.</item>
+        <item>hccch|hccch</item>
+        <item>.hoh.|.hoh.</item>
+    </string-array>
+    <string-array name="level_9">
+        <item>_______________</item>
+        <item>_lllllllllllll_</item>
+        <item>_llll__ll____l_</item>
+        <item>_ll_____l_l__l_</item>
+        <item>_l_____ol_llll_</item>
+        <item>_l_lcl_h_c__hl_</item>
+        <item>_l_lhlll__h__l_</item>
+        <item>_lll__h____lll_</item>
+        <item>_l_____lll_l_l_</item>
+        <item>_l_____c_l_l_l_</item>
+        <item>_llll_l_____hl_</item>
+        <item>_l__l_l_____ll_</item>
+        <item>_l____ll__llll_</item>
+        <item>_lllllllllllll_</item>
+        <item>_______________</item>
+    </string-array>
+</resources>

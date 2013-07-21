@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2013 venkat@pazzled.com.
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the GNU Public License v3.0
+  which accompanies this distribution, and is available at
+  http://www.gnu.org/licenses/gpl.html
+  
+  Contributors:
+      venkat@pazzled.com - Venkat
+-->
+<resources>
+    <item name="level_35_molecule_name" type="string">Cyanoguanidine</item>
+    <item name="level_35_molecule_max_size" type="integer">5</item>
+    <string-array name="level_35_molecule">
+        <item>h__h_</item>
+        <item>_ncnc</item>
+        <item>h_n_n</item>
+        <item>__h__</item>
+    </string-array>
+    <string-array name="level_35_molecule_regex">
+        <item>h..h.|.h..h</item>
+        <item>.ncnc|cncn.</item>
+        <item>h.n.n|n.n.h</item>
+        <item>..h..|..h..</item>
+    </string-array>
+    <string-array name="level_35">
+        <item>_______________</item>
+        <item>_______________</item>
+        <item>_______________</item>
+        <item>__lllllllllll__</item>
+        <item>__l_l_______l__</item>
+        <item>__lclllnnll_l__</item>
+        <item>__l__h_l__n_l__</item>
+        <item>__llll____lll__</item>
+        <item>__l_____n___l__</item>
+        <item>__lh__lhlllhl__</item>
+        <item>__l______c__l__</item>
+        <item>__lllllllllll__</item>
+        <item>_______________</item>
+        <item>_______________</item>
+        <item>_______________</item>
+    </string-array>
+</resources>

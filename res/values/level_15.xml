@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2013 venkat@pazzled.com.
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the GNU Public License v3.0
+  which accompanies this distribution, and is available at
+  http://www.gnu.org/licenses/gpl.html
+  
+  Contributors:
+      venkat@pazzled.com - Venkat
+-->
+<resources>
+    <item name="level_15_molecule_name" type="string">Butanol</item>
+    <item name="level_15_molecule_max_size" type="integer">6</item>
+    <string-array name="level_15_molecule">
+        <item>_hhhh_</item>
+        <item>hcccch</item>
+        <item>_hhho_</item>
+        <item>____h_</item>
+    </string-array>
+    <string-array name="level_15_molecule_regex">
+        <item>.hhhh.|.hhhh.</item>
+        <item>hcccch|hcccch</item>
+        <item>.hhho.|.ohhh.</item>
+        <item>....h.|.h....</item>
+    </string-array>
+    <string-array name="level_15">
+        <item>_______________</item>
+        <item>_lllllllllllll_</item>
+        <item>_l__hh_____c_l_</item>
+        <item>_l_l__llll_lll_</item>
+        <item>_lllh___l____l_</item>
+        <item>_l_h__l_____hl_</item>
+        <item>_l_ll_l_ll_h_l_</item>
+        <item>_l_l__l__l_lll_</item>
+        <item>_lll_cl_o_cl_l_</item>
+        <item>_lh__________l_</item>
+        <item>_lh___l__h___l_</item>
+        <item>_l__lllhll_l_l_</item>
+        <item>_l____l_c__l_l_</item>
+        <item>_lllllllllllll_</item>
+        <item>_______________</item>
+    </string-array>
+</resources>

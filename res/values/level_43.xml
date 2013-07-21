@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2013 venkat@pazzled.com.
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the GNU Public License v3.0
+  which accompanies this distribution, and is available at
+  http://www.gnu.org/licenses/gpl.html
+  
+  Contributors:
+      venkat@pazzled.com - Venkat
+-->
+<resources>
+    <item name="level_43_molecule_name" type="string">Nicotine</item>
+    <item name="level_43_molecule_max_size" type="integer">7</item>
+    <string-array name="level_43_molecule">
+        <item>h_h_hh_</item>
+        <item>_cchc_h</item>
+        <item>hccc_c_</item>
+        <item>_ncnc_h</item>
+        <item>__hchh_</item>
+        <item>__hhh__</item>
+    </string-array>
+    <string-array name="level_43_molecule_regex">
+        <item>h.h.hh.|.hh.h.h</item>
+        <item>.cchc.h|h.chcc.</item>
+        <item>hccc.c.|.c.ccch</item>
+        <item>.ncnc.h|h.cncn.</item>
+        <item>..hchh.|.hhch..</item>
+        <item>..hhh..|..hhh..</item>
+    </string-array>
+    <string-array name="level_43">
+        <item>_______________</item>
+        <item>___lllllllllll_</item>
+        <item>__ll_h__lh__hl_</item>
+        <item>__lc___hl___ll_</item>
+        <item>_ll__l__h___l__</item>
+        <item>_l___h__cln_ll_</item>
+        <item>_l_hl____hl_cl_</item>
+        <item>_l_lc__c___l_l_</item>
+        <item>_llh__c_c__hll_</item>
+        <item>_l______h____l_</item>
+        <item>_llccln_l_h_ll_</item>
+        <item>__l__hl_lclll__</item>
+        <item>__ll__hllll____</item>
+        <item>___lllll_______</item>
+        <item>_______________</item>
+    </string-array>
+</resources>

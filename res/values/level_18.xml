@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2013 venkat@pazzled.com.
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the GNU Public License v3.0
+  which accompanies this distribution, and is available at
+  http://www.gnu.org/licenses/gpl.html
+  
+  Contributors:
+      venkat@pazzled.com - Venkat
+-->
+<resources>
+    <item name="level_18_molecule_name" type="string">Poly-Tetra-Fluoro-Ethene</item>
+    <item name="level_18_molecule_max_size" type="integer">4</item>
+    <string-array name="level_18_molecule">
+        <item>ffff</item>
+        <item>cccc</item>
+        <item>ffff</item>
+    </string-array>
+    <string-array name="level_18_molecule_regex">
+        <item>ffff|ffff</item>
+        <item>cccc|cccc</item>
+        <item>ffff|ffff</item>
+    </string-array>
+    <string-array name="level_18">
+        <item>_______________</item>
+        <item>_lllllllllllll_</item>
+        <item>_l___________l_</item>
+        <item>_l____lflf___l_</item>
+        <item>_lc___l_l____l_</item>
+        <item>_l_llllcllll_l_</item>
+        <item>_lf__________l_</item>
+        <item>_llll__l_fllll_</item>
+        <item>_lf_________fl_</item>
+        <item>_l_llll_llll_l_</item>
+        <item>_l__f_l_l____l_</item>
+        <item>_lf___l_l___cl_</item>
+        <item>_l__c________l_</item>
+        <item>_lllllllllllll_</item>
+        <item>_______________</item>
+    </string-array>
+</resources>

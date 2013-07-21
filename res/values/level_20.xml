@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2013 venkat@pazzled.com.
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the GNU Public License v3.0
+  which accompanies this distribution, and is available at
+  http://www.gnu.org/licenses/gpl.html
+  
+  Contributors:
+      venkat@pazzled.com - Venkat
+-->
+<resources>
+    <item name="level_20_molecule_name" type="string">Formaldehyde</item>
+    <item name="level_20_molecule_max_size" type="integer">3</item>
+    <string-array name="level_20_molecule">
+        <item>h</item>
+        <item>co</item>
+        <item>h</item>
+    </string-array>
+    <string-array name="level_20_molecule_regex">
+        <item>h|h</item>
+        <item>co|oc</item>
+        <item>h|h</item>
+    </string-array>
+    <string-array name="level_20">
+        <item>_______________</item>
+        <item>_lllllllllllll_</item>
+        <item>_lo____l____cl_</item>
+        <item>_l__ll_l_ll__l_</item>
+        <item>_ll_l_____l_ll_</item>
+        <item>_l__l_____l__l_</item>
+        <item>_l_ll__l__llll_</item>
+        <item>_l____lll____l_</item>
+        <item>_l_ll__l__ll_l_</item>
+        <item>_l__l_____l__l_</item>
+        <item>_ll_l_____l_ll_</item>
+        <item>_l__ll_l_ll__l_</item>
+        <item>_lh____l____hl_</item>
+        <item>_lllllllllllll_</item>
+        <item>_______________</item>
+    </string-array>
+</resources>

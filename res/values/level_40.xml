@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2013 venkat@pazzled.com.
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the GNU Public License v3.0
+  which accompanies this distribution, and is available at
+  http://www.gnu.org/licenses/gpl.html
+  
+  Contributors:
+      venkat@pazzled.com - Venkat
+-->
+<resources>
+    <item name="level_40_molecule_name" type="string">Styrene</item>
+    <item name="level_40_molecule_max_size" type="integer">6</item>
+    <string-array name="level_40_molecule">
+        <item>h__h__</item>
+        <item>_cc__h</item>
+        <item>h__cc_</item>
+        <item>__hcch</item>
+        <item>___cc_</item>
+        <item>__h__h</item>
+    </string-array>
+    <string-array name="level_40_molecule_regex">
+        <item>h..h..|..h..h</item>
+        <item>.cc..h|h..cc.</item>
+        <item>h..cc.|.cc..h</item>
+        <item>..hcch|hcch..</item>
+        <item>...cc.|.cc...</item>
+        <item>..h..h|h..h..</item>
+    </string-array>
+    <string-array name="level_40">
+        <item>_______________</item>
+        <item>_______________</item>
+        <item>__lllllllllll__</item>
+        <item>__l_______l_l__</item>
+        <item>__l__clll_c_l__</item>
+        <item>__l___hhl_l_l__</item>
+        <item>__l___hh_hlhl__</item>
+        <item>__l__c_c_ll_l__</item>
+        <item>__l_llhll_cll__</item>
+        <item>__l__lcl____l__</item>
+        <item>__llcl_l_h__l__</item>
+        <item>__l______l_cl__</item>
+        <item>__lllllllllll__</item>
+        <item>_______________</item>
+        <item>_______________</item>
+    </string-array>
+</resources>

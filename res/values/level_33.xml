@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2013 venkat@pazzled.com.
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the GNU Public License v3.0
+  which accompanies this distribution, and is available at
+  http://www.gnu.org/licenses/gpl.html
+  
+  Contributors:
+      venkat@pazzled.com - Venkat
+-->
+<resources>
+    <item name="level_33_molecule_name" type="string">Ethylene-Glycol</item>
+    <item name="level_33_molecule_max_size" type="integer">6</item>
+    <string-array name="level_33_molecule">
+        <item>_h_h_h</item>
+        <item>__c_o_</item>
+        <item>_o_c__</item>
+        <item>h_h_h_</item>
+    </string-array>
+    <string-array name="level_33_molecule_regex">
+        <item>.h.h.h|h.h.h.</item>
+        <item>..c.o.|.o.c..</item>
+        <item>.o.c..|..c.o.</item>
+        <item>h.h.h.|.h.h.h</item>
+    </string-array>
+    <string-array name="level_33">
+        <item>_______________</item>
+        <item>____llllllllll_</item>
+        <item>____l____ol__l_</item>
+        <item>____l_l___l__l_</item>
+        <item>____l__l_____l_</item>
+        <item>_llll___l___ll_</item>
+        <item>_l__cl__cl___l_</item>
+        <item>_l___hlh__l_ll_</item>
+        <item>_l__l__l_hl_l__</item>
+        <item>_llhll__l_lll__</item>
+        <item>__l____o___l___</item>
+        <item>__l____l_h_l___</item>
+        <item>__llllll_h_l___</item>
+        <item>_______lllll___</item>
+        <item>_______________</item>
+    </string-array>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2013 venkat@pazzled.com.
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the GNU Public License v3.0
+  which accompanies this distribution, and is available at
+  http://www.gnu.org/licenses/gpl.html
+  
+  Contributors:
+      venkat@pazzled.com - Venkat
+-->
+<resources>
+    <item name="level_39_molecule_name" type="string">Saccharin</item>
+    <item name="level_39_molecule_max_size" type="integer">7</item>
+    <string-array name="level_39_molecule">
+        <item>__o____</item>
+        <item>__c_o_o</item>
+        <item>on_ccc_</item>
+        <item>_opccc_</item>
+        <item>__o_o_o</item>
+    </string-array>
+    <string-array name="level_39_molecule_regex">
+        <item>..o....|....o..</item>
+        <item>..c.o.o|o.o.c..</item>
+        <item>on.ccc.|.ccc.no</item>
+        <item>.opccc.|.cccpo.</item>
+        <item>..o.o.o|o.o.o..</item>
+    </string-array>
+    <string-array name="level_39">
+        <item>_______________</item>
+        <item>_______lllll___</item>
+        <item>__llllllclolll_</item>
+        <item>__lc__ol_l_chl_</item>
+        <item>__l______h___l_</item>
+        <item>__lclp_______l_</item>
+        <item>_ll____l_l___l_</item>
+        <item>_l_____lhlh__l_</item>
+        <item>_l__hlll_lll_l_</item>
+        <item>_l_____n_____l_</item>
+        <item>_llll___lo_lll_</item>
+        <item>____lc___c_l___</item>
+        <item>____lll__c_l___</item>
+        <item>______llllll___</item>
+        <item>_______________</item>
+    </string-array>
+</resources>

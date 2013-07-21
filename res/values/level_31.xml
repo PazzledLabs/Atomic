@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2013 venkat@pazzled.com.
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the GNU Public License v3.0
+  which accompanies this distribution, and is available at
+  http://www.gnu.org/licenses/gpl.html
+  
+  Contributors:
+      venkat@pazzled.com - Venkat
+-->
+<resources>
+    <item name="level_31_molecule_name" type="string">Ethane</item>
+    <item name="level_31_molecule_max_size" type="integer">4</item>
+    <string-array name="level_31_molecule">
+        <item>hhh</item>
+        <item>_c_</item>
+        <item>_c_</item>
+        <item>hhh</item>
+    </string-array>
+    <string-array name="level_31_molecule_regex">
+        <item>hhh|hhh</item>
+        <item>.c.|.c.</item>
+        <item>.c.|.c.</item>
+        <item>hhh|hhh</item>
+    </string-array>
+    <string-array name="level_31">
+        <item>_______________</item>
+        <item>_______________</item>
+        <item>____lllllllll__</item>
+        <item>____l____h__l__</item>
+        <item>____l__l_l__l__</item>
+        <item>____lh_c_llll__</item>
+        <item>__lllllc_lhl___</item>
+        <item>__l___l____l___</item>
+        <item>__l________l___</item>
+        <item>__l_h_lllh_ll__</item>
+        <item>__lllh___l__l__</item>
+        <item>__l_________l__</item>
+        <item>__lllllllllll__</item>
+        <item>_______________</item>
+        <item>_______________</item>
+    </string-array>
+</resources>

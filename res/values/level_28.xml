@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2013 venkat@pazzled.com.
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the GNU Public License v3.0
+  which accompanies this distribution, and is available at
+  http://www.gnu.org/licenses/gpl.html
+  
+  Contributors:
+      venkat@pazzled.com - Venkat
+-->
+<resources>
+    <item name="level_28_molecule_name" type="string">Pyran</item>
+    <item name="level_28_molecule_max_size" type="integer">5</item>
+    <string-array name="level_28_molecule">
+        <item>_hh__</item>
+        <item>_cc_h</item>
+        <item>o__c_</item>
+        <item>_cc_h</item>
+        <item>_hh__</item>
+    </string-array>
+    <string-array name="level_28_molecule_regex">
+        <item>.hh..|..hh.</item>
+        <item>.cc.h|h.cc.</item>
+        <item>o..c.|.c..o</item>
+        <item>.cc.h|h.cc.</item>
+        <item>.hh..|..hh.</item>
+    </string-array>
+    <string-array name="level_28">
+        <item>_______________</item>
+        <item>__lllllll______</item>
+        <item>__l_____l______</item>
+        <item>__l__c__llllll_</item>
+        <item>__l_ll__lh___l_</item>
+        <item>__l_oh_cllll_l_</item>
+        <item>__lll___l____l_</item>
+        <item>_ll_ll__l_c__l_</item>
+        <item>_l_____lh_l__l_</item>
+        <item>_l________lh_l_</item>
+        <item>_l_chlh_l_ll_l_</item>
+        <item>_lllll__l____l_</item>
+        <item>____l___lcllll_</item>
+        <item>____lllllll____</item>
+        <item>_______________</item>
+    </string-array>
+</resources>

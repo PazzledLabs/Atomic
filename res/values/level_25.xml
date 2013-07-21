@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2013 venkat@pazzled.com.
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the GNU Public License v3.0
+  which accompanies this distribution, and is available at
+  http://www.gnu.org/licenses/gpl.html
+  
+  Contributors:
+      venkat@pazzled.com - Venkat
+-->
+<resources>
+    <item name="level_25_molecule_name" type="string">Propanal</item>
+    <item name="level_25_molecule_max_size" type="integer">5</item>
+    <string-array name="level_25_molecule">
+        <item>_hh__</item>
+        <item>hccch</item>
+        <item>_hho_</item>
+    </string-array>
+    <string-array name="level_25_molecule_regex">
+        <item>.hh..|..hh.</item>
+        <item>hccch|hccch</item>
+        <item>.hho.|.ohh.</item>
+    </string-array>
+    <string-array name="level_25">
+        <item>_______________</item>
+        <item>__lllllllllll__</item>
+        <item>__l_hl_c____l__</item>
+        <item>__l_llh__ll_l__</item>
+        <item>__l_____c_lll__</item>
+        <item>__l__lll____l__</item>
+        <item>__l__l____lll__</item>
+        <item>__l____l____l__</item>
+        <item>__llll__l___l__</item>
+        <item>__lhh_____l_l__</item>
+        <item>__l__l_ch_l_l__</item>
+        <item>__loll__l_lhl__</item>
+        <item>__l_____l___l__</item>
+        <item>__lllllllllll__</item>
+        <item>_______________</item>
+    </string-array>
+</resources>

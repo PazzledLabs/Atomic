@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2013 venkat@pazzled.com.
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the GNU Public License v3.0
+  which accompanies this distribution, and is available at
+  http://www.gnu.org/licenses/gpl.html
+  
+  Contributors:
+      venkat@pazzled.com - Venkat
+-->
+<resources>
+    <item name="level_50_molecule_name" type="string">L-Asparagine</item>
+    <item name="level_50_molecule_max_size" type="integer">6</item>
+    <string-array name="level_50_molecule">
+        <item>_h___</item>
+        <item>_oh_h</item>
+        <item>ohhn_</item>
+        <item>hhhhh</item>
+        <item>_nh__</item>
+        <item>h_o__</item>
+    </string-array>
+    <string-array name="level_50_molecule_regex">
+        <item>.h...|...h.</item>
+        <item>.oh.h|h.ho.</item>
+        <item>ohhn.|.nhho</item>
+        <item>hhhhh|hhhhh</item>
+        <item>.nh..|..hn.</item>
+        <item>h.o..|..o.h</item>
+    </string-array>
+    <string-array name="level_50">
+        <item>_______________</item>
+        <item>_______________</item>
+        <item>___lllllllll___</item>
+        <item>___lhhl_oool___</item>
+        <item>__llh_l__llll__</item>
+        <item>__lh______lnl__</item>
+        <item>__lh________l__</item>
+        <item>__lh________l__</item>
+        <item>__lhl_l_____l__</item>
+        <item>__lh__ll__lnl__</item>
+        <item>__ll__l___lll__</item>
+        <item>___l___ccccl___</item>
+        <item>___lllllllll___</item>
+        <item>_______________</item>
+        <item>_______________</item>
+    </string-array>
+</resources>

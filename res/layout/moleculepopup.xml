@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2013 venkat@pazzled.com.
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the GNU Public License v3.0
+  which accompanies this distribution, and is available at
+  http://www.gnu.org/licenses/gpl.html
+  
+  Contributors:
+      venkat@pazzled.com - Venkat
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/molecule_popup"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="#c0000000"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+
+    <LinearLayout
+        android:id="@+id/level_target"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#f0000000"
+        android:gravity="left"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp" >
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="left"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="@string/logo"
+            android:scaleType="fitXY"
+            android:src="@drawable/atomic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:shadowColor="@color/white"
+            android:shadowDx="-1"
+            android:shadowDy="-1"
+            android:shadowRadius="1"
+            android:text="@string/Target"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white"
+            android:typeface="serif" />
+    </LinearLayout>
+
+    <TableLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/molecule_structure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </TableLayout>
+
+    <ImageButton
+        android:id="@+id/next_popup"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/next"
+        android:contentDescription="@string/next_level" />
+
+</LinearLayout>

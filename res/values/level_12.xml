@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2013 venkat@pazzled.com.
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the GNU Public License v3.0
+  which accompanies this distribution, and is available at
+  http://www.gnu.org/licenses/gpl.html
+  
+  Contributors:
+      venkat@pazzled.com - Venkat
+-->
+<resources>
+    <item name="level_12_molecule_name" type="string">trans-Butene</item>
+    <item name="level_12_molecule_max_size" type="integer">6</item>
+    <string-array name="level_12_molecule">
+        <item>___h_h</item>
+        <item>_h__c_</item>
+        <item>h_cc_h</item>
+        <item>_c__h_</item>
+        <item>h_h___</item>
+    </string-array>
+    <string-array name="level_12_molecule_regex">
+        <item>...h.h|h.h...</item>
+        <item>.h..c.|.c..h.</item>
+        <item>h.cc.h|h.cc.h</item>
+        <item>.c..h.|.h..c.</item>
+        <item>h.h...|...h.h</item>
+    </string-array>
+    <string-array name="level_12">
+        <item>_______________</item>
+        <item>_lllllllllllll_</item>
+        <item>_l___________l_</item>
+        <item>_l___l__cl___l_</item>
+        <item>_lc_l_h___l__l_</item>
+        <item>_l_l_ll_ll_l_l_</item>
+        <item>_l__h________l_</item>
+        <item>_lllhll_ll_lll_</item>
+        <item>_l___________l_</item>
+        <item>_l_l_llhll_l_l_</item>
+        <item>_l__lch___lh_l_</item>
+        <item>_l___l__hl___l_</item>
+        <item>_lc__h_______l_</item>
+        <item>_lllllllllllll_</item>
+        <item>_______________</item>
+    </string-array>
+</resources>

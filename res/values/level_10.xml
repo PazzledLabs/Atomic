@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2013 venkat@pazzled.com.
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the GNU Public License v3.0
+  which accompanies this distribution, and is available at
+  http://www.gnu.org/licenses/gpl.html
+  
+  Contributors:
+      venkat@pazzled.com - Venkat
+-->
+<resources>
+    <item name="level_10_molecule_name" type="string">Formic Acid</item>
+    <item name="level_10_molecule_max_size" type="integer">4</item>
+    <string-array name="level_10_molecule">
+        <item>_o__</item>
+        <item>hcoh</item>
+    </string-array>
+    <string-array name="level_10_molecule_regex">
+        <item>.o..|..o.</item>
+        <item>hcoh|hoch</item>
+    </string-array>
+    <string-array name="level_10">
+        <item>_______________</item>
+        <item>_lllllllllllll_</item>
+        <item>_l___________l_</item>
+        <item>_lll__lll__lll_</item>
+        <item>_l_____l_____l_</item>
+        <item>_l_lll___lll_l_</item>
+        <item>_l_lo__l___l_l_</item>
+        <item>_lhochlll____l_</item>
+        <item>_l_l___l___l_l_</item>
+        <item>_l_lll___lll_l_</item>
+        <item>_l_____l_____l_</item>
+        <item>_lll__lll__lll_</item>
+        <item>_l___________l_</item>
+        <item>_lllllllllllll_</item>
+        <item>_______________</item>
+    </string-array>
+</resources>

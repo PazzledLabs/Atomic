@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2013 venkat@pazzled.com.
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the GNU Public License v3.0
+  which accompanies this distribution, and is available at
+  http://www.gnu.org/licenses/gpl.html
+  
+  Contributors:
+      venkat@pazzled.com - Venkat
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item name="numColumns" type="integer">15</item>
+    <item name="numRows" type="integer">15</item>
+    <item name="wall_cells" type="string">l</item>
+    <item name="empty_cells" type="string">_</item>
+    <item name="action_cells" type="string">udre</item>
+    <item name="atom_cells" type="string">hoc</item>
+    <item name="score_display_string" type="string">Score: </item>
+    <item name="undo" type="string">Undo</item>
+    <item name="redo" type="string">Redo</item>
+    <item name="show_structure" type="string">Show Structure</item>
+    <item name="previous_level" type="string">Level Down</item>
+    <item name="next_level" type="string">Level Up</item>
+    <item name="restart_level" type="string">Restart Level</item>
+    <item name="change_name" type="string">Switch User</item>
+    <item name="mute" type="string">Mute</item>
+    <item name="sound_on" type="string">Sound On</item>
+    <item name="settings" type="string">Settings</item>
+    <item name="highScoreColumns" type="integer">3</item>
+    <item name="name" type="string">Name</item>
+    <item name="score" type="string">Score</item>
+    <item name="seconds" type="string">Seconds</item>
+    <item name="restart" type="string">Restart</item>
+    <item name="rank" type="string">Rank</item>
+    <item name="empty" type="string"></item>
+    <item name="highscore" type="string">High Score</item>
+    <item name="hide_ad" type="string">Hide Ad</item>
+    <item name="show_ad" type="string">Enable Ads</item>
+    <item name="number_of_levels" type="integer">51</item>
+
+    <style name="current_item">
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:editable">true</item>
+    </style>
+
+    <item name="challenge" type="string">Challenge -> </item>
+    
+    <item type="id" name="facebook"/>
+    <item type="id" name="whatsapp"/>
+    <item type="id" name="twitter"/>
+    <item type="id" name="share"/>
+    <!-- <item type="id" name="plus_one_button"/>  -->
+    
+	<item name="facebook_pkg" type="string">com.facebook.katana</item>
+	<item name="whatsapp_pkg" type="string">com.whatsapp</item>
+	<item name="twitter_pkg" type="string">com.twitter.android</item>
+	
+	<item name="analytics_url" type="string">http://pazzled-leaderboard.herokuapp.com/session</item>
+	<item name="leaderboard_url" type="string">http://pazzled-leaderboard.herokuapp.com/atomic/highscore</item>
+</resources>

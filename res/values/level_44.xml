@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2013 venkat@pazzled.com.
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the GNU Public License v3.0
+  which accompanies this distribution, and is available at
+  http://www.gnu.org/licenses/gpl.html
+  
+  Contributors:
+      venkat@pazzled.com - Venkat
+-->
+<resources>
+    <item name="level_44_molecule_name" type="string">Acetyle salicylic acid</item>
+    <item name="level_44_molecule_max_size" type="integer">8</item>
+    <string-array name="level_44_molecule">
+        <item>_o____</item>
+        <item>oco___</item>
+        <item>oc_o__</item>
+        <item>_o_coo</item>
+        <item>_cc___</item>
+        <item>occo__</item>
+        <item>_cc___</item>
+        <item>o__o__</item>
+    </string-array>
+    <string-array name="level_44_molecule_regex">
+        <item>.o....|....o.</item>
+        <item>oco...|...oco</item>
+        <item>oc.o..|..o.co</item>
+        <item>.o.coo|ooc.o.</item>
+        <item>.cc...|...cc.</item>
+        <item>occo..|..occo</item>
+        <item>.cc...|...cc.</item>
+        <item>o..o..|..o..o</item>
+    </string-array>
+    <string-array name="level_44">
+        <item>_______________</item>
+        <item>_________lllll_</item>
+        <item>_lllllllllc__l_</item>
+        <item>_l_l__c__l__ll_</item>
+        <item>_l__lol_c_lh_l_</item>
+        <item>_lo___c__h___l_</item>
+        <item>_lllcl_l_lho_l_</item>
+        <item>___l_cl_h_lc_l_</item>
+        <item>___llc__h_hlll_</item>
+        <item>___l_l_l_hol___</item>
+        <item>__ll___hl__l___</item>
+        <item>__l__cl__lll___</item>
+        <item>__llllllll_____</item>
+        <item>_______________</item>
+        <item>_______________</item>
+    </string-array>
+</resources>
