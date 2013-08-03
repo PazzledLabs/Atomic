@@ -2,6 +2,10 @@ Atomic is a simple clone of the popular puzzle game (KAtomic) that is part of th
 
 The game is very addictive puzzle and a good brain teaser which can easily hijack you for long hours. An intelligent strategy is to concentrate and think before every move.
 
+If you are bored and looking for a challenging puzzle then you have come to the right place. Go ahead, install and enjoy the game as much as we do at Pazzled Labs. Please rate us at Google Play if you like us.
+
+The game can be downloaded from https://play.google.com/store/apps/details?id=pazzled.game.atomic.
+
 
 Game Rules:
 ----------
